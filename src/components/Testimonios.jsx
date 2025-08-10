@@ -6,7 +6,7 @@ const Testimonio = (props) => {
     <div className='contenedor-testimonio'>
        <img
         className='imagen-testimonio'
-        src={`/imagenes/testimonio-${props.imagen}.jpg`}
+        src={`imagenes/testimonio-${props.imagen}.jpg`}
         alt={`Foto de ${props.nombre}`}
       />
         <div className='contenedor-texto-testimonio'>
