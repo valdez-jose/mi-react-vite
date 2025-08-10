@@ -5,7 +5,7 @@ const Cabecera = () => {
     <header className="cabecera">
       <h1 className="cabecera h1" >
                <a href="#" className="cabecera-a" />
-               <p className="parrafo2">Suscribete</p>
+               <p className="parrafo2">Practica de React-vite</p>
                 <a/>
             </h1>
     </header>
