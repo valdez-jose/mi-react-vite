@@ -1,0 +1,72 @@
+
+.App{
+  min-width: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  .contenedor-principal{
+      min-height: 600px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+  }
+}
+
+.contenedor-testimonio{
+  max-width: 1170px;
+  width: 90%;
+  height: auto;
+  margin: 10px auto 50px;
+  display: flex;
+  flex-direction: row; /* esto lo cambiaremos en móviles */
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+  flex-wrap: wrap;
+}
+
+.imagen-testimonio{
+  max-width: 100%;
+  height: auto;
+  flex: 1 1 250px;
+}
+.contenedor-texto-testimonio{
+  text-align: center;
+  padding: 20px;
+  flex: 1 1 300px;
+}
+.nombre-testimonio{
+  font-size: 1.3rem;
+  color: blue;
+}
+.cargo-testimonio{
+  font-size: 1.3rem;
+  margin-top: 15px;
+  padding-bottom: 30px;
+}
+.texto-testimonio{
+  font-size: 1.1rem;
+  text-align: justify;
+  color:fff;
+}
+@media screen and (max-width: 768px) {
+  .contenedor-testimonio {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 1.8em;
+    padding: 0 10px;
+  }
+
+  .texto-testimonio {
+    text-align: center;
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,17 @@
+
+.cabecera{
+  width: 100%;
+  background: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  max-width: 940px;
+  font-size: 2.5em;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 40px 0;
+  }
