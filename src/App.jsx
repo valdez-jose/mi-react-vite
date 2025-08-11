@@ -1,5 +1,6 @@
 import Cabecera from './components/Cabecera'
 import Testimonios from './components/Testimonios'
+import Footer from './components/Footer'
 import './App.css'
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
             testimonio='Da miedo cambiar de carrera. Solo gané la confianza de que podía programar trabajando a través de los cientos de horas de lecciones gratuitas en freeCodeCamp. Dentro de un año tuve un trabajo de seis cifras como ingeniero de software. freeCodeCamp cambió mi vida.'
         />
       </div>
+      <Footer />
    </div>
   )
 }
